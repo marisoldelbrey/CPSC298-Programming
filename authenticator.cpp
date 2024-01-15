@@ -59,7 +59,8 @@ int main()
     const int k_iValidCodeChecksum = 5;
 
     // Compare the checksum and display message
-    std::cout << "\nCharacterization of Message Code ---------------" << std::endl;
+    std::cout << "\nCharacterization of Message Code" << std::endl;
+    std::cout << "------------------------------------" << std::endl;
     std::cout << "ASCII values of Message Code Characters: " << int(userCodeChar1) << ", " << int(userCodeChar2) << ", " << int(userCodeChar3) << std::endl;
     std::cout << "Sum of ASCII values for Message Code Characters: " << int(userCodeChar1) + int(userCodeChar2) + int(userCodeChar3) << std::endl;
 
