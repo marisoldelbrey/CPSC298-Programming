@@ -74,7 +74,7 @@ int main()
     }
 
     // Remaining code for non-matching pairs and lexicographical relationship
-    std::cout << "\nNon-matching pairs:" << std::endl;
+    //std::cout << "\nNon-matching pairs:" << std::endl;
     if (userCodeChar1 != k_cAuthenticatorCodeCharacter1)
         std::cout << "Character 1: Message Code (" << userCodeChar1 << ") != Authenticator Code (" << k_cAuthenticatorCodeCharacter1 << ")" << std::endl;
     if (userCodeChar2 != k_cAuthenticatorCodeCharacter2)
@@ -82,7 +82,7 @@ int main()
     if (userCodeChar3 != k_cAuthenticatorCodeCharacter3)
         std::cout << "Character 3: Message Code (" << userCodeChar3 << ") != Authenticator Code (" << k_cAuthenticatorCodeCharacter3 << ")" << std::endl;
 
-    std::cout << "\nLexicographical relationship:" << std::endl;
+    //std::cout << "\nLexicographical relationship:" << std::endl;
     if (userMessageCode < authenticatorCode)
         std::cout << "Message Code is lexicographically less than Authenticator Code" << std::endl;
     else if (userMessageCode > authenticatorCode)
